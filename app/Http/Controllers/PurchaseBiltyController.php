@@ -256,7 +256,7 @@ class PurchaseBiltyController extends Controller
         // -------------------------------
         // Company Header
         // -------------------------------
-        $logoPath = public_path('assets/img/bf_logo.jpg');
+        $logoPath = public_path('assets/img/billtrix-logo-black.png');
 
         if (file_exists($logoPath)) {
             $pdf->Image($logoPath, 12, 8, 40);

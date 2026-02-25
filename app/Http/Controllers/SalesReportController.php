@@ -247,7 +247,7 @@ class SalesReportController extends Controller
         $pdf->AddPage();
 
         // --- Header ---
-        $logoPath = public_path('assets/img/bf_logo.jpg');
+        $logoPath = public_path('assets/img/billtrix-logo-black.png');
         if (file_exists($logoPath)) { $pdf->Image($logoPath, 12, 8, 35); }
         $pdf->SetFont('helvetica', 'B', 14);
         $pdf->SetXY(120, 12);
